@@ -1,7 +1,7 @@
 import React from 'react';
 import App from './App'
 
-const MAX_SPEED = 5;
+const MAX_SPEED = 3;
 const MIN_SPEED = 1;
 const randomBetween = (min,max) => Math.floor(Math.random()*(max-min+1)+min);
 const getValueFromPx = (px) => Number(px.split('px')[0]);
